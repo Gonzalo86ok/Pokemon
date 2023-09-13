@@ -1,0 +1,17 @@
+D:\Users\Gonzalo\Desktop\Pokemon\Pokemones\bin\Debug\Pokemones.exe.config
+D:\Users\Gonzalo\Desktop\Pokemon\Pokemones\bin\Debug\Pokemones.exe
+D:\Users\Gonzalo\Desktop\Pokemon\Pokemones\bin\Debug\Pokemones.pdb
+D:\Users\Gonzalo\Desktop\Pokemon\Pokemones\obj\Debug\Pokemones.csproj.AssemblyReference.cache
+D:\Users\Gonzalo\Desktop\Pokemon\Pokemones\obj\Debug\Pokemones.csproj.SuggestedBindingRedirects.cache
+D:\Users\Gonzalo\Desktop\Pokemon\Pokemones\obj\Debug\Pokemones.Form1.resources
+D:\Users\Gonzalo\Desktop\Pokemon\Pokemones\obj\Debug\Pokemones.Properties.Resources.resources
+D:\Users\Gonzalo\Desktop\Pokemon\Pokemones\obj\Debug\Pokemones.csproj.GenerateResource.cache
+D:\Users\Gonzalo\Desktop\Pokemon\Pokemones\obj\Debug\Pokemones.csproj.CoreCompileInputs.cache
+D:\Users\Gonzalo\Desktop\Pokemon\Pokemones\obj\Debug\Pokemones.exe
+D:\Users\Gonzalo\Desktop\Pokemon\Pokemones\obj\Debug\Pokemones.pdb
+D:\Users\Gonzalo\Desktop\Pokemon\Pokemones\bin\Debug\Dominio.dll
+D:\Users\Gonzalo\Desktop\Pokemon\Pokemones\bin\Debug\Dominio.pdb
+D:\Users\Gonzalo\Desktop\Pokemon\Pokemones\obj\Debug\Pokemones.csproj.CopyComplete
+D:\Users\Gonzalo\Desktop\Pokemon\Pokemones\bin\Debug\Negocio.dll
+D:\Users\Gonzalo\Desktop\Pokemon\Pokemones\bin\Debug\Negocio.pdb
+D:\Users\Gonzalo\Desktop\Pokemon\Pokemones\obj\Debug\Pokemones.frmAltaPokemon.resources
