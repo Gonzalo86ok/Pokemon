@@ -40,12 +40,16 @@
             this.lbDebilidad = new System.Windows.Forms.Label();
             this.cbxTipo = new System.Windows.Forms.ComboBox();
             this.cbxDebilidad = new System.Windows.Forms.ComboBox();
+            this.lbUrlImagen = new System.Windows.Forms.Label();
+            this.txtUrlImagen = new System.Windows.Forms.TextBox();
+            this.pbxUrlImagen = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxUrlImagen)).BeginInit();
             this.SuspendLayout();
             // 
             // lbNumero
             // 
             this.lbNumero.AutoSize = true;
-            this.lbNumero.Location = new System.Drawing.Point(156, 63);
+            this.lbNumero.Location = new System.Drawing.Point(71, 35);
             this.lbNumero.Name = "lbNumero";
             this.lbNumero.Size = new System.Drawing.Size(58, 16);
             this.lbNumero.TabIndex = 0;
@@ -54,7 +58,7 @@
             // lbNombre
             // 
             this.lbNombre.AutoSize = true;
-            this.lbNombre.Location = new System.Drawing.Point(155, 101);
+            this.lbNombre.Location = new System.Drawing.Point(70, 76);
             this.lbNombre.Name = "lbNombre";
             this.lbNombre.Size = new System.Drawing.Size(59, 16);
             this.lbNombre.TabIndex = 1;
@@ -63,7 +67,7 @@
             // lbDescripcion
             // 
             this.lbDescripcion.AutoSize = true;
-            this.lbDescripcion.Location = new System.Drawing.Point(132, 142);
+            this.lbDescripcion.Location = new System.Drawing.Point(47, 143);
             this.lbDescripcion.Name = "lbDescripcion";
             this.lbDescripcion.Size = new System.Drawing.Size(82, 16);
             this.lbDescripcion.TabIndex = 2;
@@ -71,28 +75,28 @@
             // 
             // txtNumero
             // 
-            this.txtNumero.Location = new System.Drawing.Point(230, 57);
+            this.txtNumero.Location = new System.Drawing.Point(136, 35);
             this.txtNumero.Name = "txtNumero";
             this.txtNumero.Size = new System.Drawing.Size(121, 22);
-            this.txtNumero.TabIndex = 3;
+            this.txtNumero.TabIndex = 0;
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(230, 95);
+            this.txtNombre.Location = new System.Drawing.Point(136, 73);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(121, 22);
-            this.txtNombre.TabIndex = 4;
+            this.txtNombre.TabIndex = 1;
             // 
             // txtDescripcion
             // 
-            this.txtDescripcion.Location = new System.Drawing.Point(230, 136);
+            this.txtDescripcion.Location = new System.Drawing.Point(136, 140);
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.Size = new System.Drawing.Size(121, 22);
-            this.txtDescripcion.TabIndex = 5;
+            this.txtDescripcion.TabIndex = 3;
             // 
             // btnAceptar
             // 
-            this.btnAceptar.Location = new System.Drawing.Point(139, 348);
+            this.btnAceptar.Location = new System.Drawing.Point(54, 278);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(75, 23);
             this.btnAceptar.TabIndex = 6;
@@ -102,7 +106,7 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(320, 348);
+            this.btnCancelar.Location = new System.Drawing.Point(182, 278);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(75, 23);
             this.btnCancelar.TabIndex = 7;
@@ -113,7 +117,7 @@
             // lbTipo
             // 
             this.lbTipo.AutoSize = true;
-            this.lbTipo.Location = new System.Drawing.Point(176, 181);
+            this.lbTipo.Location = new System.Drawing.Point(91, 179);
             this.lbTipo.Name = "lbTipo";
             this.lbTipo.Size = new System.Drawing.Size(38, 16);
             this.lbTipo.TabIndex = 8;
@@ -122,7 +126,7 @@
             // lbDebilidad
             // 
             this.lbDebilidad.AutoSize = true;
-            this.lbDebilidad.Location = new System.Drawing.Point(145, 227);
+            this.lbDebilidad.Location = new System.Drawing.Point(60, 220);
             this.lbDebilidad.Name = "lbDebilidad";
             this.lbDebilidad.Size = new System.Drawing.Size(69, 16);
             this.lbDebilidad.TabIndex = 9;
@@ -132,25 +136,54 @@
             // 
             this.cbxTipo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxTipo.FormattingEnabled = true;
-            this.cbxTipo.Location = new System.Drawing.Point(230, 178);
+            this.cbxTipo.Location = new System.Drawing.Point(136, 176);
             this.cbxTipo.Name = "cbxTipo";
             this.cbxTipo.Size = new System.Drawing.Size(121, 24);
-            this.cbxTipo.TabIndex = 10;
+            this.cbxTipo.TabIndex = 4;
             // 
             // cbxDebilidad
             // 
             this.cbxDebilidad.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxDebilidad.FormattingEnabled = true;
-            this.cbxDebilidad.Location = new System.Drawing.Point(230, 219);
+            this.cbxDebilidad.Location = new System.Drawing.Point(136, 217);
             this.cbxDebilidad.Name = "cbxDebilidad";
             this.cbxDebilidad.Size = new System.Drawing.Size(121, 24);
-            this.cbxDebilidad.TabIndex = 11;
+            this.cbxDebilidad.TabIndex = 5;
+            // 
+            // lbUrlImagen
+            // 
+            this.lbUrlImagen.AutoSize = true;
+            this.lbUrlImagen.Location = new System.Drawing.Point(54, 109);
+            this.lbUrlImagen.Name = "lbUrlImagen";
+            this.lbUrlImagen.Size = new System.Drawing.Size(75, 16);
+            this.lbUrlImagen.TabIndex = 12;
+            this.lbUrlImagen.Text = "Url Imagen:";
+            // 
+            // txtUrlImagen
+            // 
+            this.txtUrlImagen.Location = new System.Drawing.Point(136, 106);
+            this.txtUrlImagen.Name = "txtUrlImagen";
+            this.txtUrlImagen.Size = new System.Drawing.Size(121, 22);
+            this.txtUrlImagen.TabIndex = 2;
+            this.txtUrlImagen.Leave += new System.EventHandler(this.tbxUrlImagen_Leave);
+            // 
+            // pbxUrlImagen
+            // 
+            this.pbxUrlImagen.Location = new System.Drawing.Point(298, 35);
+            this.pbxUrlImagen.Name = "pbxUrlImagen";
+            this.pbxUrlImagen.Size = new System.Drawing.Size(299, 266);
+            this.pbxUrlImagen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pbxUrlImagen.TabIndex = 14;
+            this.pbxUrlImagen.TabStop = false;
             // 
             // frmAltaPokemon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(536, 460);
+            this.ClientSize = new System.Drawing.Size(647, 355);
+            this.Controls.Add(this.pbxUrlImagen);
+            this.Controls.Add(this.txtUrlImagen);
+            this.Controls.Add(this.lbUrlImagen);
             this.Controls.Add(this.cbxDebilidad);
             this.Controls.Add(this.cbxTipo);
             this.Controls.Add(this.lbDebilidad);
@@ -167,6 +200,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Nuevo Pokemon";
             this.Load += new System.EventHandler(this.frmAltaPokemon_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pbxUrlImagen)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -186,5 +220,8 @@
         private System.Windows.Forms.Label lbDebilidad;
         private System.Windows.Forms.ComboBox cbxTipo;
         private System.Windows.Forms.ComboBox cbxDebilidad;
+        private System.Windows.Forms.Label lbUrlImagen;
+        private System.Windows.Forms.TextBox txtUrlImagen;
+        private System.Windows.Forms.PictureBox pbxUrlImagen;
     }
 }

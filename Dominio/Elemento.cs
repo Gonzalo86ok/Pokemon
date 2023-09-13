@@ -10,11 +10,9 @@ namespace Dominio
     {
         public int Id { get; set; }
         public String Descripcion { get; set; }
-
         public override string ToString()
         {
             return Descripcion;
-
         }
     }
 }

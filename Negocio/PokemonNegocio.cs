@@ -53,15 +53,15 @@ namespace Pokemones
                 conexion.Close();
             }
         }
-
         public void agregar(Pokemon nuevo)
         {
             AccesoDatos datos = new AccesoDatos();
             try
             {
-                datos.setearConsulta("insert into POKEMONS(Numero, Nombre, Descripcion, Activo, idTipo, idDebilidad) values("+nuevo.Numero+", '"+nuevo.Nombre+"', '"+nuevo.Descripcion+"', 1, @idTipo, @idDebilidad,)");
+                datos.setearConsulta("insert into POKEMONS(Numero, Nombre, Descripcion, Activo, idTipo, idDebilidad, urlImagen) values("+nuevo.Numero+", '"+nuevo.Nombre+"', '"+nuevo.Descripcion+ "', 1, @idTipo, @idDebilidad,@urlImagen)");
                 datos.setearParametro("@idTipo", nuevo.Tipo.Id);
                 datos.setearParametro("@IdDebilidad", nuevo.Tipo.Id);
+                datos.setearParametro("@urlImagen", nuevo.UrlImagen);
                 datos.ejecutarAccion();
             }
 
@@ -75,7 +75,9 @@ namespace Pokemones
                 datos.cerrarConexion();
             }
         }
-
-        public void modificar(Pokemon modificar) { }
+        public void modificar(Pokemon modificar)
+        {
+        
+        }
     }
 }
